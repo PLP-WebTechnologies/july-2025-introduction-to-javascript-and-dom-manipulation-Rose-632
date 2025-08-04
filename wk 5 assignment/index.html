@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive JS Webpage</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-code"></i> My awesome Website</h1>
+    <button id="darkToggle"><i class="fas fa-moon"></i>Dark Mode</button>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="grid-layout">
+    <section class="sidebar">
+      <h2><i class="fas fa-list"></i> Topics</h2>
+      <ul>
+        <li>Flexbox</li>
+        <li>CSS Grid</li>
+        <li>JavaScript Basics</li>
+      </ul>
+    </section>
+
+    <section class="content">
+      <h2>Interactive Form</h2>
+      <form id="userForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" required />
+        <label for="age">Your Age:</label>
+        <input type="number" id="age" required />
+        <button type="submit">Submit</button>
+      </form>
+
+      <div id="output"></div>
+
+      <h3>Looped List</h3>
+      <ul id="loopList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ using HTML, CSS, and JavaScript by Nyx✨💫</p>
+  </footer>
+</body>
+</html>
